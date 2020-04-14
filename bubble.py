@@ -10,6 +10,8 @@ def bubble_sort(nums):
                 # Set the flag to True so we'll loop again
                 swapped = True
 # Verify it works
-random_list_of_nums = [14, 10, 1, 8, 4, 7, 3, 2, 42, 5, 46, 75, 12,45, 5, 6, 7, 46, 81, 55]  
-bubble_sort(random_list_of_nums)  
-print(random_list_of_nums)
+import random
+arry = [random.randint(0, 1000) for i in range(1000)]
+print(arry)
+bubble_sort(arry)
+print(arry)
